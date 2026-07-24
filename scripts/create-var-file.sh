@@ -161,6 +161,8 @@ powervs_bastion_private_ip = "<Private IP Address of Bastion>"
 powervs_bastion_ip         = "<Public IP Address of Bastion>"
 vpc_skip_ssh_key_create = true
 skip_route_creation = true
+skip_image_creation = true
+image_id_for_skip_image = "rhcos-img"
 EOFXEOF
 }
 

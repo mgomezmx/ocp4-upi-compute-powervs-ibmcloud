@@ -150,7 +150,7 @@ module "worker" {
   providers = {
     ibm = ibm.vpc
   }
-  depends_on = [module.image]
+  depends_on = [module.image, module.support]
   source     = "./modules/6_worker"
 
   worker_1             = var.worker_1
